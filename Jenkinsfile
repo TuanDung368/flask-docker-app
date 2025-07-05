@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/TuanDung368/flask-docker-app.git'
+                git 'https://github.com/TuanDung368/flask-docker-app.git
             }
         }
 

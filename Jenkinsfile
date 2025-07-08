@@ -8,7 +8,8 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/TuanDung368/flask-docker-app.git'
+             
+                git branch: 'main', url: 'https://github.com/TuanDung368/flask-docker-app.git' // Thay đổi branch và URL
             }
         }
 
